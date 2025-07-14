@@ -1,0 +1,1 @@
+streamlit run cnn_interactive_analysis.py

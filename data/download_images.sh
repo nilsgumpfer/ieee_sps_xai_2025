@@ -1,0 +1,2 @@
+wget https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/%E9%87%8E%E8%89%AF%E7%8C%AB%E3%81%AE%E3%82%AD%E3%82%B8%E3%83%88%E3%83%A9_%282015_photo%3B_cropped_2022%29.jpg/330px-%E9%87%8E%E8%89%AF%E7%8C%AB%E3%81%AE%E3%82%AD%E3%82%B8%E3%83%88%E3%83%A9_%282015_photo%3B_cropped_2022%29.jpg -O cat.jpg
+wget https://www.shutterstock.com/image-photo/colorful-rooster-on-green-nature-600nw-165081239.jpg -O rooster.jpg
