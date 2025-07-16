@@ -36,7 +36,7 @@ def run(model_id, record_id, subsample_start=0, posthresh=0.2, cmap_adjust=0.3, 
         R[R < 0] = 0
 
         # Normalize relevance map
-        Rn = normalize_ecg_relevancemap(R, local=False)
+        Rn = normalize_ecg_relevancemap(R)
 
         if fltr:
             # Discard values <= posthresh
