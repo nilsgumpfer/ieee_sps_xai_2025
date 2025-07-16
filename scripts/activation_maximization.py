@@ -46,23 +46,7 @@ def tf_clip_x(x):
     return x_proc
 
 
-def sample_colors_randomly(img_rgb, target_hw=(224, 224)):
-    h, w = target_hw
-    flat = img_rgb.reshape(-1, 3)
-    n_target = h * w
-
-    if flat.shape[0] >= n_target:
-        perm = np.random.permutation(flat.shape[0])[:n_target]
-        shuffled = flat[perm]
-    else:
-        idx = np.random.randint(0, flat.shape[0], size=n_target)
-        shuffled = flat[idx]
-
-    return shuffled.reshape(h, w, 3)
-
-
-
-def generate(neuron_selection, iterations=40):
+def generate(neuron_selection, iterations):
     os.makedirs('../plots/activation_maximization', exist_ok=True)
 
     model = VGG16(weights='imagenet')
