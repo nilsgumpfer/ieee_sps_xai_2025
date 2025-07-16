@@ -108,4 +108,3 @@ if __name__ == '__main__':
     generate(278, iterations=150) # kit fox
     generate(9, iterations=150) # ostrich
     generate(776, iterations=150) # sax
-    generate(7, iterations=150) # rooster
