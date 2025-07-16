@@ -3,7 +3,7 @@
 ### Tutorial at IEEE SPS Cycle 2 Seasonal School on Explainable AI and Applications to Biometric Signal Processing, 16-20 July 2025, IIIT Allahabad, Prayagraj, India
 
 ## 📊 Slides
-Lecture slides are available [here](https://www.dropbox.com/scl/fi/pshcbcsoxhamftz3z5t2y/presentation.pdf?rlkey=o6hbeqahp3se2oj1ychig27dp&dl=1).
+Lecture slides are available [here](https://www.dropbox.com/scl/fi/s61wzmhsz6b61woiqvoz3/presentation.pdf?rlkey=ysd0lmvtbdqbthj0twhbfovss&dl=1).
 
 ## 📁 Structure
 
